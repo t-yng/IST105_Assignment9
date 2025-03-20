@@ -6,7 +6,7 @@ echo ""
 
 echo "Start Install Python: "
 sudo dnf install python3.12 -y
-sudo ln -sf /usr/bin/python3.11 /usr/bin/python3
+sudo ln -sf /usr/bin/python3.12 /usr/bin/python3
 python3 --version
 
 if [ -f "requirements.txt" ]; then
